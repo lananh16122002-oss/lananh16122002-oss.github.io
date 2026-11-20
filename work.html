@@ -3,14 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- LABEL: "Work" is the neutral default. Researchers: rename to "Publications". Students: "Projects".
-     Change it in the nav link on all four pages, the <h1> below, and this <title>. -->
-<title>Work · Alex Morgan</title>
-<meta name="description" content="Papers, projects, posters and talks by Alex Morgan.">
+<title>Publications · Vu Thi Lan Anh</title>
+<meta name="description" content="Publications, projects and talks by Vu Thi Lan Anh.">
 <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;800&family=IBM+Plex+Mono:wght@400;600&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&display=swap">
 <link rel="stylesheet" href="css/tokens.css">
 <link rel="stylesheet" href="css/site.css">
 <script src="js/theme.js"></script>
@@ -19,83 +17,97 @@
 <body>
 
 <nav class="nav" aria-label="Main">
-  <!-- EDIT: your name; links back to the home page -->
-  <a class="nav-name" href="index.html">Alex Morgan</a>
+  <a class="nav-name" href="index.html">Vu Thi Lan Anh</a>
   <a href="about.html">About</a>
   <a href="research.html">Research</a>
-  <a href="work.html" aria-current="page">Work</a>
+  <a href="work.html" aria-current="page">Publications</a>
 </nav>
 
 <main>
   <header class="page-head">
-    <h1>Work</h1>
+    <h1>Publications</h1>
     <hr class="short-rule">
     <!-- EDIT: one line on how to read this page. Students: say what these projects were for (course, lab, thesis, side project). -->
-    <p>Papers, projects, posters and talks — the things I've made and presented.</p>
+    <p>Papers, projects and talks, newest first.</p>
   </header>
 
-  <section class="section flush-top" aria-label="Work list">
+  <section class="section flush-top" aria-label="Publications list">
     <div class="wrap">
 
-      <!-- Filters: each button's data-filter matches an entry's data-type. Delete buttons you don't need (e.g. Papers, if you have none yet). -->
       <div class="filters" role="group" aria-label="Filter by type">
         <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
         <button type="button" class="filter" data-filter="paper" aria-pressed="false">Papers</button>
         <button type="button" class="filter" data-filter="project" aria-pressed="false">Projects</button>
-        <button type="button" class="filter" data-filter="poster" aria-pressed="false">Posters</button>
         <button type="button" class="filter" data-filter="talk" aria-pressed="false">Talks</button>
       </div>
 
-      <!-- One .year-group per year; one .entry per item. Only the title is required: drop the authors line,
-           the description, the tags or any link you don't have. The first line ("Journal · Name") is the type and venue.
-           Papers/preprints use data-type="paper"; theses and course/lab/personal work use "project". -->
+      <section class="year-group" aria-labelledby="y2026">
+        <h2 class="year" id="y2026">2026</h2>
+        <article class="entry" data-type="project">
+          <p class="when">Project · Ongoing, lead researcher</p>
+          <h3>Vulnerabilities in, through, and of digital infrastructures in student scholarship systems</h3>
+          <p>A three-member study of digital vulnerability within scholarship systems, situating scholarships within the framework of datafied educational welfare.</p>
+        </article>
+      </section>
+
       <section class="year-group" aria-labelledby="y2025">
         <h2 class="year" id="y2025">2025</h2>
-        <article class="entry" data-type="paper">
-          <p class="when">Journal · Journal Name, 12(3): 456–478</p>
-          <h3><a href="https://doi.org/">Title of your most recent paper goes here</a></h3>
-          <p class="authors"><strong>A. Morgan</strong>, B. Collaborator, C. Collaborator</p>
-          <div class="links"><a href="https://doi.org/">DOI</a><a href="files/placeholder.pdf">PDF</a><a href="https://github.com/">Code</a></div>
-        </article>
         <article class="entry" data-type="project">
-          <p class="when">Project · Course, lab or personal</p>
-          <h3><a href="https://github.com/">Name of a project you built or ran</a></h3>
-          <p>One or two sentences: what problem it tackled, what you did, what came out of it.</p>
-          <div class="tags"><span class="tag">Tool</span><span class="tag">Method</span><span class="tag">Language</span></div>
-          <div class="links"><a href="files/placeholder.pdf">Report</a><a href="https://github.com/">Code</a><a href="https://example.com/">Demo</a></div>
+          <p class="when">Project · Sa Huynh, Quang Ngai</p>
+          <h3>S Voice Up – Sa Huỳnh</h3>
+          <p>A community project I initiated and lead, teaching practical English to local tourism practitioners, alongside interviews with locals on the challenges coastal students face in reaching higher education.</p>
+        </article>
+        <article class="entry" data-type="talk">
+          <p class="when">Talk · Youth-Led Dialogue on Digital Transformation and AI Governance, Hanoi</p>
+          <h3>Youth contributions to Vietnam’s digital transformation</h3>
+          <p>Presented ideas for empowering youth in technology and innovation and widening access to quality education for students in mountainous and coastal areas, at a dialogue with United Nations Vietnam and the UN Secretary-General’s Envoy on Technology.</p>
+        </article>
+        <article class="entry" data-type="paper">
+          <p class="when">Conference proceedings · International Conference on Educational Science and Foreign Language Teaching (ICEF), Hanoi</p>
+          <h3><a href="https://doi.org/10.51316/icef.hust.2025.14">Teachers’ Perceptions of Implementing Digital Game-Based Learning for Young Learners</a></h3>
+          <p class="authors"><strong>Vu, T. L. A.</strong> &amp; Nguyen, T. T. K.</p>
+          <div class="links"><a href="https://doi.org/10.51316/icef.hust.2025.14">DOI</a></div>
         </article>
       </section>
 
       <section class="year-group" aria-labelledby="y2024">
         <h2 class="year" id="y2024">2024</h2>
-        <article class="entry" data-type="project">
-          <p class="when">Thesis · University name</p>
-          <h3><a href="files/placeholder.pdf">Title of your thesis or capstone</a></h3>
-          <p class="authors">Supervised by Prof. Name</p>
-          <p>One-sentence summary of the question and the main result.</p>
-          <div class="links"><a href="files/placeholder.pdf">PDF</a></div>
+        <article class="entry" data-type="paper">
+          <p class="when">Conference proceedings · International Conference on Educational Science and Foreign Language Teaching (ICEF), Hanoi</p>
+          <h3><a href="https://doi.org/10.51316/icef.hust.2024.27">Enhancing Intercultural Communicative Competence of English-Majored Students in a Higher Education Context in Vietnam</a></h3>
+          <p class="authors"><strong>Vu, T. L. A.</strong></p>
+          <div class="links"><a href="https://doi.org/10.51316/icef.hust.2024.27">DOI</a></div>
         </article>
-        <article class="entry" data-type="poster">
-          <p class="when">Poster · Conference or symposium name, City</p>
-          <h3>Title of a poster you presented</h3>
-          <p class="authors"><strong>A. Morgan</strong>, B. Collaborator</p>
-          <div class="links"><a href="files/placeholder.pdf">PDF</a></div>
+        <article class="entry" data-type="paper">
+          <p class="when">Conference proceedings · International Conference on Educational Science and Foreign Language Teaching (ICEF), Hanoi</p>
+          <h3><a href="https://doi.org/10.51316/icef.hust.2024.25">An Investigation into Thematic Progression in Political Speeches by Native English Politicians</a></h3>
+          <p class="authors"><strong>Vu, T. L. A.</strong>, Nguyen, T. T. K., Le, N. D., &amp; Hoang, Q. V.</p>
+          <div class="links"><a href="https://doi.org/10.51316/icef.hust.2024.25">DOI</a></div>
+        </article>
+        <article class="entry" data-type="talk">
+          <p class="when">Talk · 2nd UNITAR International Research Conference, Brussels</p>
+          <h3>Enhancing Intercultural Communicative Competence for Higher Education Students</h3>
+          <p class="authors"><strong>Vu, T. L. A.</strong></p>
+          <p>Guest speaker; also chaired the session on gender-based violence, statelessness and sustainability in higher education and policy.</p>
+        </article>
+        <article class="entry" data-type="project">
+          <p class="when">Project · MSD Institute for Sustainable Development Research &amp; United Way Vietnam</p>
+          <h3>Nữ giới trong STEAM – Sáng tạo không kém (Women in STEM – Just as Creative)</h3>
+          <p>A media publication I initiated and led to encourage female students, especially girls from remote areas, to pursue education and careers in STEM.</p>
+        </article>
+        <article class="entry" data-type="project">
+          <p class="when">Project · 7th Global Competition on Design for Future Education (BNU &amp; UNESCO IITE), semi-final</p>
+          <h3>Multiculturalism and Comparative Education: The Global Civilizational Journey Through a Virtual Culture and Education Museum</h3>
+          <p>Project coordinator and user market researcher for a cross-cultural team of Vietnamese, Chinese and Russian students in the “Metaverse and Education” track.</p>
         </article>
       </section>
 
       <section class="year-group" aria-labelledby="y2023">
         <h2 class="year" id="y2023">2023</h2>
         <article class="entry" data-type="paper">
-          <p class="when">Preprint · arXiv / bioRxiv / SSRN</p>
-          <h3><a href="https://arxiv.org/">Title of a preprint you want people to read</a></h3>
-          <p class="authors"><strong>A. Morgan</strong>, C. Collaborator</p>
-          <div class="links"><a href="https://arxiv.org/">Preprint</a></div>
-        </article>
-        <article class="entry" data-type="talk">
-          <p class="when">Talk · Event name, City</p>
-          <h3>Title of a talk or lightning talk</h3>
-          <p class="authors"><strong>A. Morgan</strong></p>
-          <div class="links"><a href="files/placeholder.pdf">Slides</a></div>
+          <p class="when">Student research · 40th Student Research Conference 2022–2023, HUST, Hanoi (unpublished)</p>
+          <h3>Investigation on the Efficacy of the Flipped Classrooms Model in Enhancing English Speaking Skills for Freshmen at SOFL, HUST</h3>
+          <p class="authors">Ta, T. T., <strong>Vu, T. L. A.</strong>, Nguyen, T. M., &amp; Le, D. A.</p>
         </article>
       </section>
 
@@ -104,7 +116,7 @@
 </main>
 
 <footer class="foot">
-  <a href="index.html">© 2026 Alex Morgan</a>
+  <a href="index.html">© 2026 Vu Thi Lan Anh</a>
   <button type="button" class="toggle" data-theme-toggle aria-pressed="false"><svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 1.5a6.5 6.5 0 0 0 0 13z" fill="currentColor"/></svg><span data-theme-label>Dark</span></button>
   <a href="https://github.com/tuannguyen8390/sciencefolio" rel="noopener">Built with Sciencefolio</a>
 </footer>
